@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FEC6B5D1B1AA50A005922FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC6B5C1B1AA50A005922FA /* AppDelegate.swift */; };
+		8FEC6B5F1B1AA50A005922FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC6B5E1B1AA50A005922FA /* ViewController.swift */; };
+		8FEC6B621B1AA50A005922FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC6B601B1AA50A005922FA /* Main.storyboard */; };
+		8FEC6B641B1AA50A005922FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC6B631B1AA50A005922FA /* Images.xcassets */; };
+		8FEC6B671B1AA50A005922FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC6B651B1AA50A005922FA /* LaunchScreen.xib */; };
+		8FEC6B731B1AA50A005922FA /* ID_CheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC6B721B1AA50A005922FA /* ID_CheckerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FEC6B6D1B1AA50A005922FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FEC6B4F1B1AA50A005922FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEC6B561B1AA50A005922FA;
+			remoteInfo = "ID-Checker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FEC6B571B1AA50A005922FA /* ID-Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ID-Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC6B5B1B1AA50A005922FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FEC6B5C1B1AA50A005922FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FEC6B5E1B1AA50A005922FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FEC6B611B1AA50A005922FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FEC6B631B1AA50A005922FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8FEC6B661B1AA50A005922FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8FEC6B6C1B1AA50A005922FA /* ID-CheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ID-CheckerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC6B711B1AA50A005922FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FEC6B721B1AA50A005922FA /* ID_CheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ID_CheckerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FEC6B541B1AA50A005922FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC6B691B1AA50A005922FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FEC6B4E1B1AA50A005922FA = {
+			isa = PBXGroup;
+			children = (
+				8FEC6B591B1AA50A005922FA /* ID-Checker */,
+				8FEC6B6F1B1AA50A005922FA /* ID-CheckerTests */,
+				8FEC6B581B1AA50A005922FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FEC6B581B1AA50A005922FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC6B571B1AA50A005922FA /* ID-Checker.app */,
+				8FEC6B6C1B1AA50A005922FA /* ID-CheckerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FEC6B591B1AA50A005922FA /* ID-Checker */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC6B5C1B1AA50A005922FA /* AppDelegate.swift */,
+				8FEC6B5E1B1AA50A005922FA /* ViewController.swift */,
+				8FEC6B601B1AA50A005922FA /* Main.storyboard */,
+				8FEC6B631B1AA50A005922FA /* Images.xcassets */,
+				8FEC6B651B1AA50A005922FA /* LaunchScreen.xib */,
+				8FEC6B5A1B1AA50A005922FA /* Supporting Files */,
+			);
+			path = "ID-Checker";
+			sourceTree = "<group>";
+		};
+		8FEC6B5A1B1AA50A005922FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC6B5B1B1AA50A005922FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FEC6B6F1B1AA50A005922FA /* ID-CheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC6B721B1AA50A005922FA /* ID_CheckerTests.swift */,
+				8FEC6B701B1AA50A005922FA /* Supporting Files */,
+			);
+			path = "ID-CheckerTests";
+			sourceTree = "<group>";
+		};
+		8FEC6B701B1AA50A005922FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC6B711B1AA50A005922FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FEC6B561B1AA50A005922FA /* ID-Checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEC6B761B1AA50A005922FA /* Build configuration list for PBXNativeTarget "ID-Checker" */;
+			buildPhases = (
+				8FEC6B531B1AA50A005922FA /* Sources */,
+				8FEC6B541B1AA50A005922FA /* Frameworks */,
+				8FEC6B551B1AA50A005922FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ID-Checker";
+			productName = "ID-Checker";
+			productReference = 8FEC6B571B1AA50A005922FA /* ID-Checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FEC6B6B1B1AA50A005922FA /* ID-CheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEC6B791B1AA50A005922FA /* Build configuration list for PBXNativeTarget "ID-CheckerTests" */;
+			buildPhases = (
+				8FEC6B681B1AA50A005922FA /* Sources */,
+				8FEC6B691B1AA50A005922FA /* Frameworks */,
+				8FEC6B6A1B1AA50A005922FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FEC6B6E1B1AA50A005922FA /* PBXTargetDependency */,
+			);
+			name = "ID-CheckerTests";
+			productName = "ID-CheckerTests";
+			productReference = 8FEC6B6C1B1AA50A005922FA /* ID-CheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FEC6B4F1B1AA50A005922FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = AirconTW;
+				TargetAttributes = {
+					8FEC6B561B1AA50A005922FA = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8FEC6B6B1B1AA50A005922FA = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8FEC6B561B1AA50A005922FA;
+					};
+				};
+			};
+			buildConfigurationList = 8FEC6B521B1AA50A005922FA /* Build configuration list for PBXProject "ID-Checker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FEC6B4E1B1AA50A005922FA;
+			productRefGroup = 8FEC6B581B1AA50A005922FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FEC6B561B1AA50A005922FA /* ID-Checker */,
+				8FEC6B6B1B1AA50A005922FA /* ID-CheckerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FEC6B551B1AA50A005922FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEC6B621B1AA50A005922FA /* Main.storyboard in Resources */,
+				8FEC6B671B1AA50A005922FA /* LaunchScreen.xib in Resources */,
+				8FEC6B641B1AA50A005922FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC6B6A1B1AA50A005922FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FEC6B531B1AA50A005922FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEC6B5F1B1AA50A005922FA /* ViewController.swift in Sources */,
+				8FEC6B5D1B1AA50A005922FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC6B681B1AA50A005922FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEC6B731B1AA50A005922FA /* ID_CheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FEC6B6E1B1AA50A005922FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FEC6B561B1AA50A005922FA /* ID-Checker */;
+			targetProxy = 8FEC6B6D1B1AA50A005922FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FEC6B601B1AA50A005922FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FEC6B611B1AA50A005922FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FEC6B651B1AA50A005922FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FEC6B661B1AA50A005922FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FEC6B741B1AA50A005922FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FEC6B751B1AA50A005922FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FEC6B771B1AA50A005922FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ID-Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FEC6B781B1AA50A005922FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ID-Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FEC6B7A1B1AA50A005922FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ID-CheckerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ID-Checker.app/ID-Checker";
+			};
+			name = Debug;
+		};
+		8FEC6B7B1B1AA50A005922FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ID-CheckerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ID-Checker.app/ID-Checker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FEC6B521B1AA50A005922FA /* Build configuration list for PBXProject "ID-Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEC6B741B1AA50A005922FA /* Debug */,
+				8FEC6B751B1AA50A005922FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEC6B761B1AA50A005922FA /* Build configuration list for PBXNativeTarget "ID-Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEC6B771B1AA50A005922FA /* Debug */,
+				8FEC6B781B1AA50A005922FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FEC6B791B1AA50A005922FA /* Build configuration list for PBXNativeTarget "ID-CheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEC6B7A1B1AA50A005922FA /* Debug */,
+				8FEC6B7B1B1AA50A005922FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FEC6B4F1B1AA50A005922FA /* Project object */;
+}

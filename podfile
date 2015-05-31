@@ -1,0 +1,4 @@
+pod 'Spring', '~> 1.0.3'
+pod 'Google-Mobile-Ads-SDK'
+pod 'iRate'
+use_frameworks!

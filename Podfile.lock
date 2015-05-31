@@ -1,0 +1,16 @@
+PODS:
+  - Google-Mobile-Ads-SDK (7.3.1)
+  - iRate (1.11.4)
+  - Spring (1.0.3)
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK
+  - iRate
+  - Spring (~> 1.0.3)
+
+SPEC CHECKSUMS:
+  Google-Mobile-Ads-SDK: 3647bfddc7384c514ab96a8bed86d98b31e623e4
+  iRate: 599ed07c854e0695f3c605d1b2a64c67d912acb7
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+
+COCOAPODS: 0.37.1

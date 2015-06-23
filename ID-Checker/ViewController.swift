@@ -64,7 +64,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         sender.scaleX = 1.5
         sender.scaleY = 1.5
         sender.animate()
-    
+
 
         if cnText != nil && count(cnText!) > 0{
             if( count(cnText!) == 18 && Checker.checkChinaId(cnText!)){
@@ -90,8 +90,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
             twLineImageView?.image = UIImage(named: "GrayLine.png")
         }
         
-        if  hkText != nil &&  count(hkText!) > 0{
-            if( count(hkText!) == 9 && Checker.checkHongKongId(hkText)){
+        if  hkText != nil &&  count(hkText!) > 0 {
+            if( count(hkText!) >= 8 && Checker.checkHongKongId(hkText)){
                 hkLineImageView?.image = UIImage(named: "GreenLine.png")
                 createRightObject(hkText!, national: "HongKong")
             }else{
@@ -102,7 +102,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
             hkLineImageView?.image = UIImage(named: "GrayLine.png")
         }
 
-        if  koText != nil &&  count(koText!) > 0{
+        if  koText != nil &&  count(koText!) > 0 {
             if( count(koText!) == 13 && Checker.checkKoreaId(koText!)){
                 koLineImageView?.image = UIImage(named: "GreenLine.png")
                 createRightObject(koText!, national: "Korea")
@@ -113,7 +113,6 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         }else{
             koLineImageView?.image = UIImage(named: "GrayLine.png")
         }
-        
         
         
         //準備廣告

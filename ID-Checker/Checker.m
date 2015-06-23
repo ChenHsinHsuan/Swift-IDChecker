@@ -357,7 +357,6 @@
     //將資料檔資料讀入Dictionary
     NSDictionary* _plistData = [NSDictionary dictionaryWithContentsOfFile:_finalPath];
     
-    
     NSArray *lastChar = [[NSArray alloc] initWithObjects:@"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"A", nil];
     if (id.length == 9) {
         //檢核第二個字母
